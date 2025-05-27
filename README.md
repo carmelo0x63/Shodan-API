@@ -8,7 +8,7 @@ This is a simple alternative to the more feature-rich [`shodan` CLI command](htt
 ### Installation
 Clone the GitHub repo:
 ```
-$ git clone https://github.com/carmelo0x63/Shodan-API
+$ git clone https://github.com/carmelo0x63/Shodan-API.git
 ```
 
 Create a Python3 virtual environment and activate its dependencies:
@@ -19,9 +19,9 @@ $ python3 -m venv venv
 
 $ source venv/bin/activate
 
-$ python3 -m pip install --upgrade pip setuptools wheel
+(venv) $ python3 -m pip install --upgrade pip setuptools wheel
 
-$ python3 -m pip install --upgrade shodan
+(venv) $ python3 -m pip install --upgrade shodan
 ```
 
 ----
