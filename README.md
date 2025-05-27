@@ -15,9 +15,9 @@ Create a Python3 virtual environment and activate its dependencies:
 ```
 $ cd Shodan-API
 
-$ python3 -m venv .
+$ python3 -m venv venv
 
-$ source bin/activate
+$ source venv/bin/activate
 
 $ python3 -m pip install --upgrade pip setuptools wheel
 
