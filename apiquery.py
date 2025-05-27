@@ -40,7 +40,7 @@ def main():
         for result in results['matches']:
             print('IP: {}'.format(result['ip_str']))
             print('Port: {}'.format(result['port']))
-            print(result['data'])
+#            print(result['data'])
             print('')
 
     except shodan.APIError as e:

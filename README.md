@@ -27,4 +27,30 @@ $ python3 -m pip install --upgrade shodan
 ----
 
 ### Examples
+```
+./apiquery.py IP:208.67.222.222
+Results found: 4
+IP: 208.67.222.222
+Port: 53
 
+IP: 208.67.222.222
+Port: 80
+
+IP: 208.67.222.222
+Port: 443
+
+IP: 208.67.222.222
+Port: 5353
+```
+
+```
+./apiquery.py AS:109    
+Results found: 4806
+IP: 51.174.72.94
+Port: 443
+
+IP: 124.122.12.64
+Port: 8085
+
+...
+```
